@@ -1,0 +1,109 @@
+/*
+ * EasyJqueryGallery - jQuery Plugin
+ * Simple Url Modal Js
+ *
+ * Examples and documentation at: http://tiendasdigitales.net
+ *
+ * Copyright (c) 2017 Lucas Gabriel Martinez
+ *
+ * Version: 1.0.0 - 2017/07/26
+ * Requires: jQuery v1.3+
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+/* JS LOADER PLUGIN */
+	.loaderJS{
+		background:white;
+		color:#333;
+		font-size:1em;
+		box-shadow: 1px 2px 15px rgba(0,0,0,0.5);
+		padding-bottom:15px;
+    z-index: 10001;
+	}
+	.loaderJS span{
+		text-align: center;
+		width: 90%;
+		margin:4px;
+    height:40px;
+    float:left;
+		display: inline-block;
+	}
+	.loaderJSrounded{
+		border-radius:7px;
+		-moz-border-radius:7px;
+		-webkit-border-radius:7px;
+		-o-border-radius:7px;
+	}
+  .loaderJSLoading
+  {
+    background: url(../images/loader.gif) center no-repeat;
+  }
+/* JS LOADER PLUGIN */
+
+/* JS MODAL PLUGIN */
+
+.modalJSWindow{
+  background: rgba(251, 251, 251, 0.95);
+  color: #333;
+  overflow: hidden !important;
+  box-shadow: 1px 2px 15px rgba(0,0,0,0.5);
+}
+@media screen and (max-device-width:450px){
+	.modalJSWindow h1{
+		/*width:80% !important;*/
+	}
+}
+
+.modalJSWindowTitle{
+	border-bottom: 1px solid #000;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 4px;
+	background: #577198;
+}
+
+.modalJSWindow .modalJSWindowTitle h1{
+  font-weight: bold;
+  width: 90%;
+  margin: 0px;
+  font-family: Arial,Helvetica;
+  font-size: 1em;
+  height: 22px;
+  color:#fff;
+  padding: 12px 0px 6px 10px;
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+  text-align: center;
+}
+.modalJSWindow .modalJSWindowTitle input{
+  width: 35px;
+  height: 33px;
+  margin-top: 5px;
+  background: #3d5a86;
+  color: #FFF;
+  float: left;
+  min-width: 30px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1em;
+  padding-bottom: 2px;
+  border: 0px;
+  cursor: pointer;
+}
+.modalJSWindow .modalJSWindowTitle input:hover{
+	background:#7c97bf;
+	color:#FFF;
+}
+.modalJSWindow section{
+	width:96%;
+	display:inline-block;
+	height:auto;
+	padding:2%;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+/* JS MODAL PLUGIN */
